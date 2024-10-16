@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profile-btn {
+  width: 170px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #6cbafd;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 300px;
+  width: 400px; /* Adjust this value for your desired width */
+  max-width: 80%; /* This ensures the modal is responsive */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-button {
+  background-color: #ff5c5c;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-button:hover {
+  background-color: #ff0000;
+}
+.myForm{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  row-gap: 20px;
+}
+.email{
+  width: 260px;
+  height: 30px;
+}
+.password{
+  width: 260px;
+  height: 30px;
+}
+.sign{
+  width: 100px;
+  height: 30px;
+  background-color: #0982ed;
+  border: none;
+  border-radius: 5px;
+}

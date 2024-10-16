@@ -1,0 +1,22 @@
+.projectsTitle{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.headerContainer{
+    background-color: white;
+}
+.photo{
+    width: 500px;
+    height: 380px;
+}
+.photo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.projectsImage{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
